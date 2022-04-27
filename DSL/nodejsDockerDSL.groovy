@@ -16,7 +16,7 @@ job('Aplicacion Node.js Docker DSL') {
         dockerBuildAndPublish {
             repositoryName('haydnidk/nodejsapp')
             tag('${GIT_REVISION,length=7}')
-            registryCredentials('ec04c498-e1a4-435e-a49d-27472f9d1c4b')
+            registryCredentials('docker-hub')
             forcePull(false)
             createFingerprints(false)
             skipDecorate()
