@@ -1,5 +1,5 @@
-job('Aplicacion Node.js Docker DSL') {
-    description('Aplicación Node JS Docker DSL para el curso de Jenkins')
+job('App de Node.js y Docker DSL') {
+    description('Aplicación Node JS Docker DSL para el curso de Jenkins, repositorio propio')
     scm {
         git('https://github.com/aydin-due/nodejsapp.git', 'master') { node ->
             node / gitConfigName('aydin-due')
